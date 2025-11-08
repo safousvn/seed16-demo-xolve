@@ -24,7 +24,8 @@ if "total_tokens" not in st.session_state:
 # --- API Settings ---
 # API_URL = "https://ark.byteplusapi.com/v1/chat/completions"
 API_URL = "https://ark.ap-southeast.bytepluses.com/api/v3/chat/completions"
-MODEL_NAME = "seed-1-6-250915"
+# MODEL_NAME = "seed-1-6-250915"
+MODEL_NAME = "seed-1-6-flash-250715"
 
 prompt_text = st.text_area("🧠 Prompt for Seed 1.6:", "Hello Seed, tell me something creative!", height=100)
 interval = st.number_input("⏱ Call Interval (seconds):", 0.5, 60.0, 2.0)
